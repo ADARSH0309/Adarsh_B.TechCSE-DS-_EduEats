@@ -1,7 +1,8 @@
 # 🍽️ EduEats – Campus Food Ordering System
 
 ## 👨‍💻 Team Member
-- **Adarsh Kumar Sharma**  
+- **Adarsh Kumar Sharma (2301420058)**
+- **Shivam Raj (2301420057)**
   B.Tech CSE (Data Science), K.R. Mangalam University
 
 ---
@@ -16,19 +17,8 @@
 - Add items to cart and place orders
 - Track order status in real-time
 - Apply promo codes and download order receipts
+ 
 
-### 🧑‍💼 For Admin:
-- Manage menu items (Add/Edit/Delete)
-- Monitor and update order statuses (Pending → Preparing → Ready → Delivered)
-- View daily orders, revenue, and top-selling items
-- Create and manage discount promo codes
-
----
-
-## 🎥 Video Demonstration
-
-📺 [Click here to watch the demo video](https://your-demo-video-link.com)  
-*(Replace with your actual video URL before publishing)*
 
 ---
 
@@ -58,15 +48,15 @@
 
 ### 🔧 Backend Setup
 ```bash
-git clone https://github.com/your-username/edueats.git
 cd edueats/backend
 npm install
+npm run dev
 
 ### 🌐 Frontend Setup
 ```bash
 cd client
 npm install
-npm start
+npm run dev 
 ```
 
 ### 🔗 Frontend will run at:
