@@ -62,7 +62,7 @@ npm run dev
 
 ### 🔗 Frontend will run at:
 ```
-http://localhost:3000
+http://localhost:5173
 ```
 
 ### 🔗 Backend runs at:
