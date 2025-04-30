@@ -1,62 +1,66 @@
-Here's a complete `README.md` file for your **EduEats – Campus Food Ordering System** project:
-
----
-
-```markdown
 # 🍽️ EduEats – Campus Food Ordering System
 
 ## 👨‍💻 Team Member
-- **Adarsh Kumar Sharma** – B.Tech CSE (Data Science), K.R. Mangalam University
+- **Adarsh Kumar Sharma**  
+  B.Tech CSE (Data Science), K.R. Mangalam University
 
 ---
 
 ## 📋 Project Description
-**EduEats** is a full-stack web application designed for digitizing food ordering processes in a college environment. It allows **students** and **faculty** to:
-- Register/Login based on roles
-- Browse categorized menus
+
+**EduEats** is a full-stack MERN web application built to streamline food ordering on college campuses. It digitizes the entire canteen process for **students**, **faculty**, and **administrators** through an intuitive interface.
+
+### 👨‍🎓 For Students/Faculty:
+- Register and login based on role
+- Browse categorized menus (Breakfast, Snacks, Beverages, etc.)
 - Add items to cart and place orders
-- Track order status in real time
+- Track order status in real-time
+- Apply promo codes and download order receipts
 
-The system also includes an **admin panel** where canteen managers can:
-- Manage menu items
-- Track and update order statuses
-- Apply discount promo codes
-- View sales analytics
-
-The platform is powered by the **MERN stack** and is optimized for mobile and desktop usage, with real-time order status updates enabled via **Socket.io**.
+### 🧑‍💼 For Admin:
+- Manage menu items (Add/Edit/Delete)
+- Monitor and update order statuses (Pending → Preparing → Ready → Delivered)
+- View daily orders, revenue, and top-selling items
+- Create and manage discount promo codes
 
 ---
 
-## 🎥 Video Explanation
-🔗 [Click here to watch the project demo](https://your-demo-video-link.com)  
-*(Replace with your actual video link)*
+## 🎥 Video Demonstration
+
+📺 [Click here to watch the demo video](https://your-demo-video-link.com)  
+*(Replace with your actual video URL before publishing)*
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Layer        | Technologies                                 |
-|--------------|----------------------------------------------|
-| Frontend     | React.js, Tailwind CSS, React Router         |
-| Backend      | Node.js, Express.js                          |
-| Database     | MongoDB Atlas                                |
-| Authentication | JWT, Bcrypt.js                            |
-| Real-time    | Socket.io                                    |
-| Payments     | Razorpay (optional integration)              |
-| Deployment   | Vercel (Frontend), Render (Backend)          |
-| Dev Tools    | Postman, VS Code, Git                        |
+| Layer         | Technologies                               |
+|---------------|--------------------------------------------|
+| Frontend      | React.js, Tailwind CSS, React Router       |
+| Backend       | Node.js, Express.js                        |
+| Database      | MongoDB Atlas                              |
+| Authentication| JWT, Bcrypt.js                             |
+| Real-time     | Socket.io                                  |
+| Payments      | Razorpay (optional)                        |
+| Deployment    | Vercel (Frontend), Render (Backend)        |
+| Dev Tools     | Postman, Git, VS Code                      |
 
 ---
 
 ## ▶️ How to Run the Project Locally
 
-### 📁 Backend Setup
+### 📦 Prerequisites
+- Node.js & npm
+- MongoDB (or MongoDB Atlas URI)
+- Git
+
+---
+
+### 🔧 Backend Setup
 ```bash
-cd backend
+git clone https://github.com/your-username/edueats.git
+cd edueats/backend
 npm install
-# Add a `.env` file with your MongoDB URI and JWT_SECRET
-npm start
-```
 
 ### 🌐 Frontend Setup
 ```bash
